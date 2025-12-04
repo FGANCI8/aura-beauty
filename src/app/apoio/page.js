@@ -51,7 +51,7 @@ export default function ApoioPage() {
         },
         {
             icon: Video,
-            title: 'Vídeo Tutorial",
+            title: 'Vídeo Tutorial',
             description: 'Assista nosso vídeo rápido de 3 minutos',
             link: '#video'
         },

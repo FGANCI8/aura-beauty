@@ -124,7 +124,7 @@ export default async function Home() {
                                 Conheça a <span className="italic text-champagne-gold">Aura</span>
                             </h2>
                             <p className="text-gray-400 text-xl mb-10 leading-relaxed font-light">
-                                "Sou a Aura, sua assistente exclusiva. Estou aqui para garantir que sua experiência comece antes mesmo de você chegar ao salão, com agendamento instantâneo e atendimento personalizado."
+                                &quot;Sou a Aura, sua assistente exclusiva. Estou aqui para garantir que sua experiência comece antes mesmo de você chegar ao salão, com agendamento instantâneo e atendimento personalizado.&quot;
                             </p>
                             <ul className="space-y-6 text-gray-300 mb-12 text-left max-w-md mx-auto md:mx-0">
                                 <li className="flex items-center">

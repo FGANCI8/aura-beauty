@@ -246,7 +246,7 @@ export default function VendasPage() {
                                         <Star key={i} size={20} className="text-yellow-400 fill-current" />
                                     ))}
                                 </div>
-                                <p className="text-gray-700 mb-4 italic">"{testimonial.text}"</p>
+                                <p className="text-gray-700 mb-4 italic">&quot;{testimonial.text}&quot;</p>
                                 <div className="border-t pt-4">
                                     <div className="font-bold">{testimonial.name}</div>
                                     <div className="text-sm text-gray-500">{testimonial.salon}</div>

@@ -1,0 +1,78 @@
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\scripts\migrate-db.js[24m[0m
+[0m  [2m1:18[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m  [2m2:14[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\scripts\migrate-settings.js[24m[0m
+[0m  [2m1:18[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m  [2m2:14[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\scripts\setup-db.js[24m[0m
+[0m  [2m1:18[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m  [2m2:14[22m  [31merror[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\bookings\page.js[24m[0m
+[0m  [2m4:28[22m  [33mwarning[39m  'Filter' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\clients\page.js[24m[0m
+[0m  [2m4:42[22m  [33mwarning[39m  'TrendingUp' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\dashboard\page.js[24m[0m
+[0m  [2m3:10[22m  [33mwarning[39m  'useEffect' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m3:21[22m  [33mwarning[39m  'useState' is defined but never used   [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\login\page.js[24m[0m
+[0m   [2m5:8[22m   [33mwarning[39m  'Image' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m34:18[22m  [33mwarning[39m  'err' is defined but never used    [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\services\page.js[24m[0m
+[0m  [2m4:44[22m  [33mwarning[39m  'Check' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\admin\settings\page.js[24m[0m
+[0m  [2m4:22[22m  [33mwarning[39m  'SettingsIcon' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\atendimento\page.js[24m[0m
+[0m  [2m13:9[22m  [31merror[39m  Error: Cannot access variable before it is declared[0m
+[0m[0m
+[0m`fetchServices` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.[0m
+[0m[0m
+[0m  11 |[0m
+[0m  12 |     useEffect(() => {[0m
+[0m> 13 |         fetchServices();[0m
+[0m     |         ^^^^^^^^^^^^^ `fetchServices` accessed before it is declared[0m
+[0m  14 |     }, []);[0m
+[0m  15 |[0m
+[0m  16 |     const fetchServices = async () => {[0m
+[0m[0m
+[0m  14 |     }, []);[0m
+[0m  15 |[0m
+[0m> 16 |     const fetchServices = async () => {[0m
+[0m     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 17 |         try {[0m
+[0m     | ^^^^^^^^^^^^^[0m
+[0m> 18 |             const res = await fetch('/api/services');[0m
+[0m     …[0m
+[0m     | ^^^^^^^^^^^^^[0m
+[0m> 25 |         }[0m
+[0m     | ^^^^^^^^^^^^^[0m
+[0m> 26 |     };[0m
+[0m     | ^^^^^^^ `fetchServices` is declared here[0m
+[0m  27 |[0m
+[0m  28 |     const categories = [...new Set(services.map(s => s.category))];[0m
+[0m  29 |  [2mreact-hooks/immutability[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\checkout\page.js[24m[0m
+[0m  [2m5:24[22m  [33mwarning[39m  'CreditCard' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\page.js[24m[0m
+[0m  [2m111:33[22m  [33mwarning[39m  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  [2m@next/next/no-img-element[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\app\vendas\page.js[24m[0m
+[0m  [2m2:17[22m  [33mwarning[39m  'Zap' is defined but never used    [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m2:83[22m  [33mwarning[39m  'Users' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ferna\OneDrive\Desktop\Antigravity\aura-beauty\src\components\AuraBadge.js[24m[0m
+[0m  [2m4:23[22m  [33mwarning[39m  'MessageCircle' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 20 problems (7 errors, 13 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
